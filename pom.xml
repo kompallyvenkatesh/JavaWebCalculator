@@ -23,9 +23,9 @@
 </dependencies>
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
     <!-- <url>http://54.86.239.163:8081/nexus/content/repositories/releases</url> -->    
-    <url>http://binary.ibm.com/nexus/content/repositories/releases</url>
+    <url>http://54.86.239.163:8081/repository/sample-snapshot/</url>
   </repository>
 </distributionManagement>
 </project>
